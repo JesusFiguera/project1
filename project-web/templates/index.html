@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Inicio</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename="index2.css") }}"/>
+    </head>
+    <body>
+        <div id="contenedor">
+            <h1 id="header"><a href="#">Leaf</a></h1>
+            <ul>
+                {% if user != None %}
+                <li> <a href=" {{url_for('auth.index')}} "><h2>Inicio</h2></a> </li>
+                <li> <a href=" {{url_for('auth.logout')}} "><h2>Logout</h2></a> </li>
+                {% else %}
+                <li> <a href=" {{url_for('auth.index')}} "><h2>Inicio</h2></a> </li>
+                <li> <a href=" {{url_for('auth.login')}} "><h2>Login</h2></a> </li>
+                <li> <a href=" {{url_for('auth.register')}} "><h2>Register</h2></a> </li>
+                {% endif %}
+            </ul>
+            {% if user != None %}
+            <h1 id="user"> {{user['username']}} </h1>
+            {% endif %}
+            <footer>Jesus Figuera</footer>
+        </div>
+    </body>
+</html>

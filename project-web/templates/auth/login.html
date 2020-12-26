@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Inicio</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename="login1.css") }}"/>
+    </head>
+    <body>
+        <!doctype html>
+<html>
+    <head>
+        <title>Inicio</title>
+        <link rel="stylesheet" href="register.css" type="text/css"/>
+    </head>
+    <body>
+        <div id="contenedor">
+            <h1 id="header"><a href="#">Login</a></h1>
+            <div id="caja">
+                <form method="POST">
+                    <label>Username</label>
+                    <input type="text" name="username" class="datos"/>
+                    <label>Password</label>
+                    <input type="password" name="password" class="datos"/>
+                    <input type="submit" value="Ingresar"/>
+                </form>
+            </div>
+            <h1> {{message}} </h1>
+            <footer>Jesus Figuera</footer>
+        </div>
+    </body>
+</html>
+    </body>
+</html>

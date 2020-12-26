@@ -1,0 +1,73 @@
+body{
+    background-color: #010F27;
+    font-family: Neuropolitical;
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#contenedor{
+    margin-top: 10%;
+}
+
+#header{
+    text-align: center;
+    color: #0DE81E;
+    text-shadow: 1px 1px 20px #0DE81E;
+    margin-left: 50px;
+    font-size: 100px;
+}
+
+#header a{
+    text-decoration: none;
+    color: #0DE81E;
+}
+
+#header:hover{
+    color: #0DE81E;
+    text-shadow: 1px 1px 50px #0DE81E;
+}
+
+
+#caja{
+    margin-left: 120px;
+    background-color: #010F27;
+    padding: 1 20px;
+    color: #0DE81E;
+}
+.datos{
+    width: 100%;
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+input[type=submit]{
+    width: 90%;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 15px;
+    margin: 10px 0;
+    background-color: #0BFEC7;
+    box-shadow: 1px 2px 1px #0BFEC7,1px 2px 15px #0BFEC7;
+    outline: none;
+}
+
+input[type=submit]:hover{
+    box-shadow: 1px 1px 30px #0BFEC7;
+}
+
+
+footer{
+    text-align: center;
+    color: white;
+    text-align: bottom;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 25px;
+}

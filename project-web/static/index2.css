@@ -1,0 +1,71 @@
+body{
+    background-color: #010F27;
+    font-family: Neuropolitical;
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+#contenedor{
+    margin-top: 10%;
+}
+
+#header{
+    text-align: center;
+    color: #0DE81E;
+    text-shadow: 1px 1px 20px #0DE81E;
+    margin-left: 50px;
+    font-size: 100px;
+}
+
+#header a{
+    text-decoration: none;
+    color: #0DE81E;
+}
+
+#header:hover{
+    color: #0DE81E;
+    text-shadow: 1px 1px 50px #0DE81E;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    background-color: #09B911;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 180px;
+    padding: 1px 1px 1px 10px;
+    margin: 50px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li:hover{
+    box-shadow: 0px 0px 1px #008706,0px 0px 20px #09B911,0px 0px 60px #09B911;
+}
+
+
+footer{
+    text-align: center;
+    color: white;
+    text-align: bottom;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+#user{
+    text-align: center;
+    color:#09B911;
+    text-shadow: 1px 1px 50px #0DE81E;
+    text-decoration: underline;
+}
